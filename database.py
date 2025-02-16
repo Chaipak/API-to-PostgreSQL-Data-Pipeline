@@ -54,13 +54,3 @@ def insert_data(data):
         except Exception as e:
             print(f"❌ Error inserting data: {e}")
             conn.close()
-
-
-if __name__ == "__main__":
-    from process_data import clean_data
-    from fetch_api import fetch_data
-
-    create_table()  # Ensure the table exists
-    raw_data = fetch_data()  # Fetch API data
-    cleaned_data = clean_data(raw_data)  # Process data
-    insert_data(cleaned_data)  # Store in PostgreSQL

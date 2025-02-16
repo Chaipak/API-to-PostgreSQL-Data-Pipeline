@@ -10,7 +10,3 @@ def fetch_data():
     except requests.exceptions.RequestException as e:
         print(f"Error fetching data: {e}")
         return []
-    
-if __name__ == "__main__":
-    data = fetch_data()
-    print(data[:3])  # Print first 3 records to check
