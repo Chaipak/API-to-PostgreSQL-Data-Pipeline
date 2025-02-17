@@ -117,7 +117,7 @@ SELECT * FROM posts LIMIT 5;
    ```
 2. Add this line (runs daily at 9 AM):
    ```
-   0 9 * * * /Users/migsmac/Desktop/Data\ Engineer/API-to-PostgreSQL-Pipeline/venv/bin/python /Users/migsmac/Desktop/Data\ Engineer/API-to-PostgreSQL-Pipeline/main.py
+   0 9 * * * /Users/users/Desktop/Data\ Engineer/API-to-PostgreSQL-Pipeline/venv/bin/python /Users/users/Desktop/Data\ Engineer/API-to-PostgreSQL-Pipeline/main.py
    ```
 
 ---
